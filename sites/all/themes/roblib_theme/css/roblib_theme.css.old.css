@@ -1,0 +1,277 @@
+/**
+ * Footheme footheme.css
+ *
+ * Use this file to add your custom styles.
+ *
+ * You can change the name of this file, just
+ * remember to update the name in the info file
+ * as well.
+ */
+
+
+/***************************************
+/	Typography
+/***************************************/
+
+#site-name a    {
+  letter-spacing: 0px;
+}
+
+/***************************************
+/	Global stuff
+/***************************************/
+
+#top-panels-wrapper {
+	border-top: 1px solid #f3f3f1;
+	padding-top: 20px;
+}
+/***************************************
+/	Main Nav Bar
+/***************************************/
+
+#menu-bar {
+	float: right;
+}
+.nav .block-menu ul a {
+  padding: 0.3em 1em;
+  text-decoration: none;
+  float: left;
+}
+/***************************************
+/	Header
+/***************************************/
+
+#logo {
+	border-right: solid grey 1px;
+}
+
+#site-name {
+	padding-left: 10px;
+	font-variant: small-caps;
+}
+
+#branding {
+  padding: 25px 0 20px 25px;
+  display: table-cell;
+}
+
+#header-wrapper{
+	background-color: #f3f3f1;
+	border-bottom: 1px solid #cdcdcc;
+}
+
+/***************************************
+/	footer
+/***************************************/
+
+#footer-panels-wrapper {
+  background: #363636;
+  padding: 25px 0 10px;
+  margin-bottom: 0px;
+  color: grey;
+}
+#footer-wrapper {
+	background-color: #2c2c2c;
+}
+
+/***************************************
+/	layout testing
+/***************************************/
+
+#ult {
+	background-color: brown;
+	width: 100%;
+	height: 280px;
+	margin: 0 auto;
+	b
+
+}
+#ull{
+	background-color: blue;
+	width: 95%;
+	height: 100px;
+	margin: 0 auto;
+
+}
+#uri{
+	background-color: green;
+	height: 400px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+/***************************************
+/	Quick tab styles
+/***************************************/
+
+ul.quicktabs-tabs.quicktabs-style-zen li {
+	margin: 0px;
+}
+li.even.first.active {}
+div#quicktabs-container-search_tab_test {
+    background-color: white;
+}
+div#quicktabs-search_tab_test {
+	border: 1px solid #cdcdcc;
+	border-radius: 6px;
+    background-color: white;
+    height: 200px;
+}
+div.item-list.item-list-q {
+    background-color: #eaeae8;
+    -webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+
+}
+/***************************************
+/	Center Nav bar
+/***************************************/
+
+ul.nice-menu,
+ul.nice-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #363636;
+  height: 75px;
+ }
+
+ul.nice-menu li {
+width: 12%;
+  float: left; /* LTR */
+}
+
+ul.nice-menu a {
+ text-align: center;
+ height: 60px;
+ color: #f3f3f1;
+ padding-top: 1em;
+}
+ul.nice-menu a:hover {
+background-color: #f3f3f1;
+}
+
+nav#block-nice-menus-1 {
+    margin-bottom: 0px;
+}
+.icon.fontello {
+	height: 1em;
+}
+i.icon.fontello {
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+.section-printing .active {
+  background-color: blue;
+}
+
+/******************************
+ HORIZONTAL (down) menus
+******************************/
+ul.nice-menu-down {
+  float: left; /* LTR */
+  border: 0;  
+  width: 100%;
+}
+
+ul.nice-menu-down li {
+}
+
+ul.nice-menu-down li li {
+}
+
+ul.nice-menu-down ul {
+ 
+}
+
+ul.nice-menu-down ul li {
+  clear: both;
+}
+
+ul.nice-menu-down li ul li ul {
+  left: 12.5em; /* LTR */
+  top: -1px;
+}
+
+ul.nice-menu-down .menuparent a {
+  padding-right: 15px; /* LTR */
+}
+
+ul.nice-menu-down li.menuparent {
+  background: #eee url("../images/arrow-down.png") right center no-repeat; /* LTR */
+}
+
+ul.nice-menu-down li.menuparent:hover {
+  background: #ccc url("../images/arrow-down.png") right center no-repeat; /* LTR */
+}
+
+ul.nice-menu-down li li.menuparent {
+  background: #eee url("../images/arrow-right.png") right center no-repeat; /* LTR */
+}
+
+ul.nice-menu-down li li.menuparent:hover {
+  background: #ccc url("../images/arrow-right.png") right center no-repeat; /* LTR */
+}
+
+/******************************
+ Garland-specific CSS
+******************************/
+
+/**
+ * Global CSS for ALL menu types
+ */
+ul.nice-menu li {
+  margin: 0;
+  padding-left: 0; /* LTR */
+  background-image: none;
+}
+
+#header-region ul.nice-menu li {
+  margin: 0;
+  /* Padding rules are needed to deal with Garland's header line-height. */
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  background: #eee;
+}
+
+#header-region ul.nice-menu ul {
+  top: 1.8em;
+  left: -1px; /* LTR */
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin-right: 0; /* LTR */
+}
+
+#header-region ul.nice-menu ul {
+  top: 1.7em;
+}
+
+/**
+ * HORIZONTAL (down) menus
+ */
+#header-region ul.nice-menu-down li ul li ul {
+  left: 12.5em; /* LTR */
+  top: -1px;
+}
+
+#header-region ul.nice-menu-down li.menuparent {
+  background: #eee url("../images/arrow-down.png") right center no-repeat; /* LTR */
+}
+
+#header-region ul.nice-menu-down li.menuparent:hover {
+  background: #ccc url("../images/arrow-down.png") right center no-repeat; /* LTR */
+}
+
+#header-region ul.nice-menu-down li li.menuparent {
+  background: #eee url("../images/arrow-right.png") right center no-repeat; /* LTR */
+}
+
+#header-region ul.nice-menu-down li li.menuparent:hover {
+  background: #ccc url("../images/arrow-right.png") right center no-repeat; /* LTR */
+}
+
+

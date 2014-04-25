@@ -1,0 +1,149 @@
+/* @override 
+  http://roblib.local:8083/sites/all/themes/roblib_theme/css/roblib_theme.css?n4g174 */
+
+
+/* **************************************
+/ Typography
+/************************************** */
+
+#site-name a { letter-spacing: 0px; }
+
+/* **************************************
+/ Global stuff
+/************************************** */
+ 
+#top-panels-wrapper { border-top: 1px solid #f3f3f1; padding-top: 20px; }
+
+/* **************************************
+/ Main Nav Bar
+/************************************** */
+ 
+#menu-bar { float: right; }
+.nav .block-menu ul a { padding: 0.3em 1em; text-decoration: none; float: left; }
+
+/***************************************
+/ Header
+/************************************** */
+ 
+#logo { border-right: solid #808080 1px; }
+#site-name { padding-left: 10px; font-variant: small-caps; }
+#branding { padding: 14px 0 10px 25px; display: table-cell; }
+#header-wrapper { background-color: #f3f3f1; border-bottom: 1px solid #cdcdcc; }
+/* color overide */
+.nav .block-menu ul li a.active { color: #333333; background-color: #f3f3f1; }
+.region-header { padding: 0; line-height: 100%; }
+
+/***************************************
+/ pre-footer
+/************************************** */
+ 
+#tertiary-content-wrapper { margin-bottom: 0px; background-color: #A8A9A7; text-align: center; border-bottom: 1px solid #282828; }
+#tertiary-content-wrapper p { padding-top: 20px; }
+
+/* **************************************
+/ footer
+/************************************** */
+ 
+#footer-panels-wrapper { background: #363636; padding: 25px 0 10px; margin-bottom: 0px; border-top: 1px solid #989996; }
+#footer-wrapper { background-color: #2c2c2c; }
+
+/* *****************************
+/   Footer links
+***************************** */
+
+.footer-links { border-left: 1px solid #545454; padding-left: 15px; margin-left: 20px; }
+.footer-links.menu-01 { border-left: none; }
+.footer-links h2.title { color: #fff; font-size: 1em; }
+.footer-links ul { list-style-image: none; line-height: 95%; }
+.footer-links a { color: #ccc; font-size: 12px; }
+.footer-links a:hover { text-decoration: underline; }
+.footer-links ul li.leaf { list-style-image: none; list-style-type: none; }
+
+/* *****************************
+/   SubFooter
+***************************** */
+
+.links-last { color: #e5e5e3; }
+.links-last { display: flex; }
+.links-last a { color: #ccc; font-size: .8em; /* padding: 0 5px 0 5px;  */ }
+.links-last a:hover { text-decoration: underline; }
+.links-last a:first-child { color: #ccc; font-size: .8em; /* padding: 0 5px 0 0;  */ }
+.address { color: white; line-height: 60%; font-size: .8em; padding-bottom: 5px }
+.addressleft { float: left; }
+#address_right { padding-top: 20px; }
+.footerlogo { float: left; padding-top: 10px; }
+.footerlogo { margin: 0 0 0 22px; }
+.footeraddress { padding: 30px 0 0 42px; }
+.socialmedia { float: left; padding-top: 20px; }
+.socialmedia ul { height: auto; padding: 8px 0px; margin: 0px; }
+.socialmedia li { display: inline; }
+.socialmedia a { padding: 0 2px; }
+
+/* **************************************
+/ layout testing
+/************************************** */
+ 
+#ult { background-color: brown; width: 100%; height: 280px; margin: 0 auto; }
+#ull { /* background-color: blue;  */
+width: 89%; height: 70px; margin: 0 auto; }
+.content-style { min-height: 0; }
+#uri { background-color: green; height: 400px; width: 85%; margin: 0 auto; }
+.node-flex-gallery { margin-bottom: -41px; }
+
+/* **************************************
+/ Quick tab styles
+/************************************** */
+ 
+ul.quicktabs-tabs.quicktabs-style-zen li { margin: 0px; }
+li.even.first.active { }
+div#quicktabs-container-search_tab_test { background-color: white; }
+div#quicktabs-search_tab_test { border: 1px solid #cdcdcc; border-radius: 6px; background-color: white; padding:; /* height: 200px;  */ }
+#quicktabs-search_tab_test .node-inner { padding: 10px; }
+div.item-list.item-list-q { background-color: #eaeae8; -webkit-border-top-left-radius: 6px; -webkit-border-top-right-radius: 6px; -moz-border-radius-topleft: 6px; -moz-border-radius-topright: 6px; border-top-left-radius: 6px; border-top-right-radius: 6px; }
+
+/* **************************************
+/ Center Nav bar (full)
+/************************************** */
+ 
+ul.nice-menu { float: left; border: 0; width: 100%; }
+ul.nice-menu, ul.nice-menu ul { list-style: none; padding: 0; margin: 0; background-color: #363636; height: 75px; }
+ul.nice-menu li { width: 12%; float: left; /* LTR */ }
+ul.nice-menu a { text-align: center; height: 61px; color: #f3f3f1; padding-top: 1em; font-size: .9em; }
+nav#block-nice-menus-1 { margin-bottom: 0px; }
+.icon.fontello { height: 1em; }
+i.icon.fontello { font-size: 2.5em; padding-bottom: 5px; }
+ul.nice-menu a:hover { color: #8c2004; /* color: #8c2004;  */
+background-color: #C2C2C2; }
+.section-printing .nice-menu .active, .section-study-space .nice-menu .active, .section-computers .nice-menu .active, .section-ask-us .nice-menu .active, .section-hours .nice-menu .active, .section-calendar .nice-menu .active, .section-workshops .nice-menu .active, .section-contact-us .nice-menu .active { background-color: #8c2004; /* color: #8c2004;  */
+border-bottom: 10px solid #8c2004; color: #f3f3f1; border-radius: 0 0 10px 10px; }
+
+/***************************************
+/ Center Nav bar (responsive)
+/************************************** */
+ 
+.responsive-menus.responsified .responsive-menus-simple li a { color: #fff; display: block; padding: 1em 5%; margin: 0; text-align: center; color: #fff; border-bottom: 1px solid #bbb; border-bottom: 1px solid rgba(255, 255, 255, 0.5); text-decoration: none; text-transform: uppercase; }
+
+/***************************************
+/ Library Hours (block)
+/************************************** */
+ 
+.view-display-id-block_1 .fc-event-default, .view-display-id-block_1 .fc-event-default .fc-event-skin, .view-display-id-block_1 .fc-event-default .fc-event-time, .view-display-id-block_1 .fc-event-default a, .view-display-id-block_1 th, .view-display-id-block_1 thead, .view-display-id-block_1 thead th { border: none; background: none; color: #252525; }
+.view-display-id-block_1 .fc-state-highlight { background: none; }
+.fc-border-separate th, .fc-border-separate td, .fc-border-separate tr, .fc-border-separate tr { border: none; }
+.view-display-id-block_1 th, .view-display-id-block_1 thead, .view-display-id-block_1 thead th { background: none; border: none; color: #252525; }
+div.fc-event-inner.fc-event-skin { text-align: center; }
+/*span.fc-event-time { display: inline-block; }*/
+div.fc-event-inner.fc-event-skin {
+    width: 200px;
+}
+div.fullcalendar.jquery-once-1-processed.fc {
+    width: 200px;
+}
+span.fc-event-title {
+    display: none;
+}
+.fc-event-time:before {
+  content: "Today's Hours: ";
+}
+/*TEST*/
+

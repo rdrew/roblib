@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the robs flex slider feature.
+ */
+
+include_once 'robs_flex_slider.features.inc';
